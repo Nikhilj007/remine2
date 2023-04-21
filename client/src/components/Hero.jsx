@@ -12,7 +12,7 @@ const breakPoints = [
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero mb-6">
       <Carousel breakPoints={breakPoints}>
         <Item />
         <Item />
