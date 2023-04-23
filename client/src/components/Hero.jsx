@@ -21,7 +21,7 @@ const Hero = () => {
         <Item />
       </Carousel>
       <div className="flex justify-center my-20">
-        <button class="bttn ">Learn more</button>
+        <button className="bttn mb-10">Learn more</button>
       </div>
     </div>
   );

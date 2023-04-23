@@ -1,8 +1,5 @@
 import { BrowserRouter } from 'react-router-dom'
-import {Navbar , Hero} from './components';
-import Form from './components/Form';
-import Services from './components/Services';
-import Achievements from './components/Achievements';
+import {Navbar , Hero,Hero2 ,Achievements, Form, Footer} from './components';
 
 const App=()=> {
 
@@ -10,10 +7,11 @@ const App=()=> {
     <div className='relative z-0 '>
       <div className="bg-white bg-cover bg-no-repeat bg-center">
         <Navbar/>
+        <Hero2/>
         <Hero/>
         <Achievements/>
-        <Services/>
         <Form/>
+        <Footer/>
       </div>
     </div>
   )
